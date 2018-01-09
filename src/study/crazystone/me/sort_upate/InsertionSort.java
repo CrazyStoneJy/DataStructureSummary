@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.sort;
+package study.crazystone.me.sort_upate;
 
 /**
  * 插入排序

@@ -1,4 +1,4 @@
-package algorithm;
+package study.crazystone.me.algorithm;
 
 /**
  * 请实现一个函数,输入一个整数,输出该数二进制表示中 1 的个数。例如

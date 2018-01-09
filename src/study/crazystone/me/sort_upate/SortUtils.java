@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.sort;
+package study.crazystone.me.sort_upate;
 
 import com.crazystone.datastructure.sort.heap.HeapSort;
 import sun.dc.pr.PRError;

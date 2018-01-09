@@ -1,4 +1,4 @@
-package test;
+package study.crazystone.me.test;
 
 /**
  * Created by crazystone on 17-7-10.

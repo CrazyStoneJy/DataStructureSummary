@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.list;
+package study.crazystone.me.list;
 
 /**
  * Created by crazystone on 2016/3/28.

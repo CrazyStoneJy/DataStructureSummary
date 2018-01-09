@@ -1,4 +1,4 @@
-package algorithm;
+package study.crazystone.me.algorithm;
 
 import java.util.HashMap;
 import java.util.Hashtable;

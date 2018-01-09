@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.tree;
+package study.crazystone.me.tree;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package test.chapter21;
+package study.crazystone.me.test.chapter21;
 
 /**
  * Created by crazystone on 17-2-26.

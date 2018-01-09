@@ -1,4 +1,4 @@
-package algorithm;
+package study.crazystone.me.algorithm;
 
 /** 二分查找
  * Created by crazystone on 17-2-20.

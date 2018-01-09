@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.sort;
+package study.crazystone.me.sort_upate;
 
 import java.util.List;
 

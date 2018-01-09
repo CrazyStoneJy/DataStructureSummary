@@ -1,4 +1,4 @@
-package sort;
+package study.crazystone.me.sort;
 
 /**
  * 选择排序原理：

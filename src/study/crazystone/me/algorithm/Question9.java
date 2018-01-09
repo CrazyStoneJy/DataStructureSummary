@@ -1,4 +1,4 @@
-package algorithm;
+package study.crazystone.me.algorithm;
 
 /**
  * Created by crazystone on 17-2-14.

@@ -1,7 +1,6 @@
-package com.crazystone.datastructure.list;
+package study.crazystone.me.list;
 
-import java.util.*;
-import java.util.List;
+import java.util.LinkedList;
 
 /**
  * 栈的实现

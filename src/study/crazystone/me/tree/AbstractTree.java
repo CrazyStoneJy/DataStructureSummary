@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.tree;
+package study.crazystone.me.tree;
 
 /**
  * Created by crazystone on 2016/3/30.

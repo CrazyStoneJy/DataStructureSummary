@@ -1,4 +1,4 @@
-package sort;
+package study.crazystone.me.sort;
 
 /**
  * 冒泡算法的原理：

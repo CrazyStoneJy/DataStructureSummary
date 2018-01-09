@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.list;
+package study.crazystone.me.list;
 
 /**
  * 数组线性表

@@ -1,4 +1,4 @@
-package sort;
+package study.crazystone.me.sort;
 
 /**
  * Created by crazystone on 17-2-11.

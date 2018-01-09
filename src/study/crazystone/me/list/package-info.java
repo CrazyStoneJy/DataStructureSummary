@@ -1,5 +1,5 @@
 /**
- * 线性表
+ * 链表
  * Created by crazystone on 2016/3/28.
  */
-package com.crazystone.datastructure.list;
+package study.crazystone.me.list;

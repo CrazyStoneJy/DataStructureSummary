@@ -1,4 +1,4 @@
-package test.chapter21;
+package study.crazystone.me.test.chapter21;
 
 /**
  * 修改程序清单21.1中的GenericStack类，使用数组而不是ArrayList来实现它。你应该在给栈添加新元素之前

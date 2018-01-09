@@ -1,4 +1,4 @@
-package algorithm;
+package study.crazystone.me.algorithm;
 
 /**
  * 题 面试题 3 :二维数组中的查找

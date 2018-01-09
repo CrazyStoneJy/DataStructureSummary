@@ -1,4 +1,4 @@
-package test;
+package study.crazystone.me.test;
 
 import java.util.Random;
 

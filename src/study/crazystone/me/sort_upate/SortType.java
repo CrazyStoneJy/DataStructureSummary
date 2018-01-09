@@ -1,4 +1,4 @@
-package com.crazystone.datastructure.sort;
+package study.crazystone.me.sort_upate;
 
 /**
  * Created by crazystone on 2016/3/6.

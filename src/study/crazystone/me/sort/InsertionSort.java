@@ -1,4 +1,4 @@
-package sort;
+package study.crazystone.me.sort;
 
 /**
  * 插入排序
