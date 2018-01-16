@@ -175,7 +175,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
         }
     }
 
-    static class Node<E> {
+    public static class Node<E> {
         E element;
         Node<E> next;
 

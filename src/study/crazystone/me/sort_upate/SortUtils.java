@@ -1,7 +1,7 @@
 package study.crazystone.me.sort_upate;
 
-import com.crazystone.datastructure.sort.heap.HeapSort;
-import sun.dc.pr.PRError;
+
+import study.crazystone.me.sort_upate.heap.HeapSort;
 
 /**
  * Created by crazystone on 2016/3/6.

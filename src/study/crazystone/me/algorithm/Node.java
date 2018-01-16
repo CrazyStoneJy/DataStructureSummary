@@ -7,12 +7,12 @@ public class Node {
     String name;
     Node next;
 
-    public Node(String name){
-        this.name=name;
+    public Node(String name) {
+        this.name = name;
     }
 
-    public boolean hasNext(){
-        return next!=null;
+    @Override
+    public String toString() {
+        return "node name is:" + this.name;
     }
-
 }

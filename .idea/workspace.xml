@@ -2,82 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacb4e73-4aa4-4ea6-8a26-4ad2b5891434" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/BitOperationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/BitType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/AbstractList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/MyArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/MyStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/InsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/RadixSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/AbstractHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/BigHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/Heap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/HeapSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/DataUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/Lunars.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/MathTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/PieDataTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/tree/AbstractTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/tree/BinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/tree/Tree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/study/crazystone/me/tree/package-info.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/CommonPerson.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/Dector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/HumanBeing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/SpiderMan.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/decorator/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/IObserval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/IReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/NewsPaperStation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/Subscriber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/observer/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/DynaicProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/ILawsuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/Lawyer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/XiaoMin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/patternDesign/proxy/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/asd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/chapter21/Question2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/chapter21/Question3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/chapter21/Question4.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/BinarySearch.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/BinarySearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Node.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question3.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question4.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question42.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question42.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question5.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question7.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question7.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question8.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question8.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/algorithm/Question9.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question9.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/BubbleSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/IPrintArray.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/IPrintArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/InsertionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/PrintArrayImpl.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/PrintArrayImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/SelectionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sort/package-info.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/chapter21/GenericStack.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/chapter21/GenericStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/chapter21/Question1.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/chapter21/Question1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/chapter21/Stack.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/test/chapter21/Stack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/list/Q1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/ChainTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/IChain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/ILeadTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/Leader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/impl/Boss.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/impl/GroupLeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/impl/Programmer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/chain/impl/ProjectManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/decorator/CommonPerson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/decorator/Dector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/decorator/HumanBeing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/decorator/SpiderMan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/decorator/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/observer/IObserval.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/observer/IReceiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/observer/NewsPaperStation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/observer/Subscriber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/observer/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/proxy/DynaicProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/proxy/ILawsuit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/proxy/Lawyer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/proxy/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructureSummary/study/crazystone/me/patternDesign/proxy/XiaoMin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/study/crazystone/me/list/Q1.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortTest.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortUtils.java" afterPath="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,31 +48,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort/BubbleSort.java">
+      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/map/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort/InsertionSort.java">
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
+        <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="186">
+              <caret line="622" column="7" lean-forward="true" selection-start-line="622" selection-start-column="7" selection-end-line="622" selection-end-column="7" />
+              <folding>
+                <element signature="e#19296#19297#0" expanded="true" />
+                <element signature="e#19379#19380#0" expanded="true" />
+                <element signature="e#24298#24299#0" expanded="true" />
+                <element signature="e#24363#24364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/Heap.java">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="219">
+              <caret line="239" column="9" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -139,6 +101,7 @@
       <find>jiaoCai</find>
       <find>angleCal</find>
       <find>valueOf</find>
+      <find>put</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,6 +148,12 @@
         <option value="$PROJECT_DIR$/src/study/crazystone/me/list/MyStack.java" />
         <option value="$PROJECT_DIR$/src/study/crazystone/me/package-info.java" />
         <option value="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/Heap.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortUtils.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/algorithm/JudgeRing.java" />
+        <option value="$PROJECT_DIR$/src/study/crazystone/me/map/HashMapTest.java" />
       </list>
     </option>
   </component>
@@ -241,6 +210,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructureSummary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructureSummary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -261,7 +252,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q1">
+  <component name="RunManager" selected="Application.JudgeRing">
     <configuration default="false" name="MathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -270,26 +261,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="study.crazystone.me.test.MathTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructureSummary" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PieDataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="study.crazystone.me.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="study.crazystone.me.test.PieDataTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -350,6 +321,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="study.crazystone.me.list.Q1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructureSummary" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JudgeRing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="study.crazystone.me.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="study.crazystone.me.algorithm.JudgeRing" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -584,18 +575,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MathTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PieDataTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BitOperationTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestExecute" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Q1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BitOperationTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestExecute" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JudgeRing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestExecute" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MathTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BitOperationTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PieDataTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JudgeRing" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestExecute" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MathTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BitOperationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -619,29 +610,29 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25367156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25689307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -655,31 +646,31 @@
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25367156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25689307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -696,54 +687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/ILeadTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/impl/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/impl/ProjectManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/impl/Programmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/impl/GroupLeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/patternDesign/chain/Leader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/asd.java" />
     <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -881,42 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/Q1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -949,25 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1076,7 +968,7 @@
         <state relative-caret-position="239">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1097,6 +989,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2560">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/Q1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort_upate/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1105,11 +1045,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/sort_upate/heap/Heap.java">
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/algorithm/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/list/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="178" column="18" lean-forward="true" selection-start-line="178" selection-start-column="18" selection-end-line="178" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7559">
+          <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/algorithm/JudgeRing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/algorithm/Question3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/study/crazystone/me/map/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="239" column="9" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_111/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="622" column="7" lean-forward="true" selection-start-line="622" selection-start-column="7" selection-end-line="622" selection-end-column="7" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
