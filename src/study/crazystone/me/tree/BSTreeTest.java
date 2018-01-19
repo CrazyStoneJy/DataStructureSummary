@@ -1,4 +1,4 @@
-package study.crazystone.me.tree_update;
+package study.crazystone.me.tree;
 
 public class BSTreeTest {
 
