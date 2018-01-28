@@ -1,14 +1,7 @@
 package study.crazystone.me.map;
 
-<<<<<<< HEAD
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-=======
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
->>>>>>> ef269a8283e219e8c9cbf1019fb7b3becbf262e2
 
 /**
  * Created by crazystone on 18-1-16.
@@ -18,7 +11,6 @@ public class HashMapTest {
 
     public static void main(String... args) {
         Map<String, String> map = new HashMap<>();
-<<<<<<< HEAD
 
         for (int i = 0; i < 16; i++) {
             String key = "name" + i;
@@ -40,7 +32,6 @@ public class HashMapTest {
 //        System.out.println(value);
 
         // resize方法中 preserve order拉链　原理
-=======
         System.out.println(tableSizeFor(1 << 4));
         Set<String> set = new HashSet<>();
         set.add("aa");
@@ -63,7 +54,6 @@ public class HashMapTest {
         //判断n是否越界，返回 2的n次方作为 table（哈希桶）的阈值
         return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
     }
->>>>>>> ef269a8283e219e8c9cbf1019fb7b3becbf262e2
 
     static void print(Object object) {
 //        if(String.class.isInstance(object))
