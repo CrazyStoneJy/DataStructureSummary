@@ -3,7 +3,7 @@ package study.crazystone.me.list;
 /**
  * Created by crazystone on 2016/3/29.
  */
-public interface Stack<E> {
+public interface Stack<E extends Comparable<E>> {
 
     void push(E e);
 
