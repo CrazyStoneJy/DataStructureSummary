@@ -1,5 +1,10 @@
 package study.crazystone.me.tree;
 
+import study.crazystone.me.utils.Logs;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BSTree<E extends Comparable<E>> implements Tree<E> {
 
     private int size;
@@ -14,6 +19,7 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         TreeNode<E> parent = null;
         if (current == null) {
             root = createTreeNode(e);
+            root.parent = null;
         } else {
             while (current != null) {
                 if (e.compareTo(current.e) > 0) {
@@ -27,9 +33,13 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
                 }
             }
             if (parent.e.compareTo(e) > 0) {
-                parent.left = createTreeNode(e);
+                TreeNode<E> leftNode = createTreeNode(e);
+                parent.left = leftNode;
+                leftNode.parent = parent;
             } else if (parent.e.compareTo(e) < 0) {
-                parent.right = createTreeNode(e);
+                TreeNode<E> rightNode = createTreeNode(e);
+                parent.right = rightNode;
+                rightNode.parent = parent;
             }
             size++;
             return true;
@@ -98,6 +108,7 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         return false;
     }
 
+
     @Override
     public boolean search(E e) {
         if (e == null || root == null) return false;
@@ -113,6 +124,22 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         }
         return false;
     }
+
+    public TreeNode<E> get(E e) {
+        if (e == null || root == null) return null;
+        TreeNode<E> current = root;
+        while (current != null) {
+            if (current.e.compareTo(e) > 0) {
+                current = current.left;
+            } else if (current.e.compareTo(e) < 0) {
+                current = current.right;
+            } else {
+                return current;
+            }
+        }
+        return null;
+    }
+
 
     @Override
     public int size() {
@@ -155,38 +182,46 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         size = 0;
     }
 
-    private static class TreeNode<E> {
+    @Override
+    public int getMaxDeep() {
+        TreeNode<E> current = root;
+        return deep(current);
+    }
 
-        private TreeNode<E> left;
-        private TreeNode<E> right;
-        private E e;
+    /**
+     * 树的深度计算
+     *
+     * @param current
+     * @return
+     */
+    private int deep(TreeNode<E> current) {
+        if (current == null) return 0;
+        int maxLeft = deep(current.left);
+//        return maxLeft + 1;
+        int maxRight = deep(current.right);
+//        return maxRight + 1;
+        return maxLeft >= maxRight ? maxLeft + 1 : maxRight + 1;
+    }
 
-        public TreeNode(E e) {
-            this.e = e;
-        }
 
-        public TreeNode<E> getLeft() {
-            return left;
-        }
-
-        public void setLeft(TreeNode<E> left) {
-            this.left = left;
-        }
-
-        public TreeNode<E> getRight() {
-            return right;
-        }
-
-        public void setRight(TreeNode<E> right) {
-            this.right = right;
-        }
-
-        public E getE() {
-            return e;
-        }
-
-        public void setE(E e) {
-            this.e = e;
+    /**
+     * 按层进行遍历
+     */
+    public void traversals() {
+        TreeNode<E> current = root;
+        Queue<TreeNode<E>> queue = new LinkedList<>();
+        queue.offer(current);
+        while (!queue.isEmpty()) {
+            TreeNode<E> cur = queue.poll();
+            Logs.l(cur.e);
+            TreeNode<E> left = cur.getLeft();
+            TreeNode<E> right = cur.getRight();
+            if (left != null) {
+                queue.offer(left);
+            }
+            if (right != null) {
+                queue.offer(right);
+            }
         }
     }
 

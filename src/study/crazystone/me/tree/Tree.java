@@ -15,5 +15,12 @@ public interface Tree<E extends Comparable<E>> {
 
     void clear();
 
+    /**
+     * 返回二叉树的最大深度
+     *
+     * @return
+     */
+    int getMaxDeep();
+
 
 }
