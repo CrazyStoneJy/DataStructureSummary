@@ -6,20 +6,25 @@ package study.crazystone.me.sort;
  * 2.对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。
  * 3.针对所有的元素重复以上的步骤，除了最后一个。
  * 4.持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较
+ * [wiki](https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F)
+ * 时间复杂度: O(n2)
  * Created by crazystone on 17-2-11.
  */
-public class BubbleSort extends PrintArrayImpl{
+public class BubbleSort extends PrintArrayImpl {
 
     /**
      * 懒汉式单列
      */
-    private static volatile BubbleSort instance=null;
-    private BubbleSort(){};
+    private static volatile BubbleSort instance = null;
 
-    public static BubbleSort getInstance(){
-        if(instance==null){
-            synchronized (BubbleSort.class){
-                if(instance==null)
+    private BubbleSort() {
+    }
+
+
+    public static BubbleSort getInstance() {
+        if (instance == null) {
+            synchronized (BubbleSort.class) {
+                if (instance == null)
                     instance = new BubbleSort();
             }
         }
@@ -29,16 +34,17 @@ public class BubbleSort extends PrintArrayImpl{
 
     /**
      * 最原始的冒泡排序
+     *
      * @param array
      * @return
      */
-    public int[] bubbleSort(int[] array){
-        for(int i=0;i<array.length-1;i++){
-            for(int j=0;j<array.length-1-i;j++){
-                if(array[j]>array[j+1]){
-                    int temp = array[j+1];
-                    array[j+1]=array[j];
-                    array[j]=temp;
+    public int[] bubbleSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[j] > array[j + 1]) {
+                    int temp = array[j + 1];
+                    array[j + 1] = array[j];
+                    array[j] = temp;
                 }
             }
         }
@@ -47,18 +53,19 @@ public class BubbleSort extends PrintArrayImpl{
 
     /**
      * 优化后的冒泡排序算法(增加了一个boolean标志位，如果上次没有元素进行交换，则说明排序已经好，没必要再去比较)
+     *
      * @return
      */
-    public int[] bubbleSortPro(int[] array){
-        boolean isContinue=true;
-        for(int i=0;i<array.length-1&&isContinue;i++){
-            isContinue=false;
-            for(int j=0;j<array.length-1-i;j++){
-                if(array[j]>array[j+1]){
+    public int[] bubbleSortPro(int[] array) {
+        boolean isContinue = true;
+        for (int i = 0; i < array.length - 1 && isContinue; i++) {
+            isContinue = false;
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[j] > array[j + 1]) {
                     int temp = array[j];
-                    array[j]=array[j+1];
-                    array[j+1]=temp;
-                    isContinue=false;
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    isContinue = true;
                 }
             }
         }

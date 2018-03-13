@@ -6,6 +6,8 @@ import java.util.List;
  * 冒泡算法
  * Created by crazystone on 2016/2/22.
  */
+@Deprecated
+@SuppressWarnings("这个不是冒泡排序写错了")
 public class BubbleSort {
 
     public static <E extends Comparable<E>> E[] sort(E[] array) {

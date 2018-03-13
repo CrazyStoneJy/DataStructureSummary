@@ -46,4 +46,5 @@ public class TreeNode<E extends Comparable<E>> {
         this.parent = parent;
         return this;
     }
+
 }

@@ -2,6 +2,10 @@ package study.crazystone.me.tree;
 
 import study.crazystone.me.utils.Logs;
 
+import java.util.*;
+import java.util.TreeMap;
+import java.util.function.BiConsumer;
+
 public class BSTreeTest {
 
     public static void main(String... args) {
@@ -21,14 +25,27 @@ public class BSTreeTest {
 //        tree.inOrder(tree.getRoot());
 //        System.out.println(tree.search(15));
 
-        Logs.l(tree.getMaxDeep());
+//        Logs.l(tree.getMaxDeep());
 //        tree.traversals();
 //        TreeNode<Integer> node = tree.get(12);
 //        Logs.l(node.e);
 //        Logs.l(node.parent.e);
 
+        tree.preOrder();
+//
+        Logs.l(">>>>>>>>>>>>>>>>");
+
+        tree.preOrder2();
 
 
+
+//        8
+//        5
+//        3
+//        4
+//        6
+//        12
+//        10
 
     }
 

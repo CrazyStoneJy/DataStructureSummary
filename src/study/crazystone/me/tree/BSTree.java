@@ -4,6 +4,7 @@ import study.crazystone.me.utils.Logs;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class BSTree<E extends Comparable<E>> implements Tree<E> {
 
@@ -155,24 +156,75 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         return root;
     }
 
-    public void preOrder(TreeNode<E> root) {
-        if (root == null) return;
-        System.out.println(root.e);
-        preOrder(root.left);
-        preOrder(root.right);
+
+    public void preOrder() {
+        if (root == null)
+            return;
+        TreeNode<E> current = root;
+        pre(current);
     }
 
-    public void inOrder(TreeNode<E> root) {
-        if (root == null) return;
-        inOrder(root.left);
-        System.out.println(root.e);
-        inOrder(root.right);
+    public void inOrder() {
+        if (root == null)
+            return;
+        TreeNode<E> current = root;
+        in(current);
     }
 
-    public void postOrder(TreeNode<E> root) {
+    public void postOrder() {
+        if (root == null)
+            return;
+        TreeNode<E> current = root;
+        post(current);
+    }
+
+
+    public void preOrder2() {
+        if (root == null)
+            return;
+        TreeNode<E> current = root;
+        pre2(current);
+    }
+
+
+    /**
+     * 非递归的前序遍历
+     *
+     * @param root
+     */
+    private void pre2(TreeNode<E> root) {
+        Stack<TreeNode<E>> stack = new Stack<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                Logs.l(root.e);
+                stack.push(root);
+                root = root.left;
+            }
+            if (!stack.isEmpty()) {
+                root = stack.pop();
+                root = root.right;
+            }
+        }
+    }
+
+    private void pre(TreeNode<E> root) {
         if (root == null) return;
-        postOrder(root.left);
-        postOrder(root.right);
+        System.out.println(root.e);
+        pre(root.left);
+        pre(root.right);
+    }
+
+    private void in(TreeNode<E> root) {
+        if (root == null) return;
+        in(root.left);
+        System.out.println(root.e);
+        in(root.right);
+    }
+
+    private void post(TreeNode<E> root) {
+        if (root == null) return;
+        post(root.left);
+        post(root.right);
         System.out.println(root.e);
     }
 
@@ -203,9 +255,22 @@ public class BSTree<E extends Comparable<E>> implements Tree<E> {
         return maxLeft >= maxRight ? maxLeft + 1 : maxRight + 1;
     }
 
+    /**
+     * 更简便更好理解的写法
+     * 先递归计算左边的树的深度,再计算右边数的深度,最后取最大的那个
+     *
+     * @param root
+     * @return
+     */
+    private int deep2(TreeNode<E> root) {
+        if (root == null)
+            return 0;
+        return 1 + Math.max(deep2(root.left), deep2(root.right));
+    }
+
 
     /**
-     * 按层进行遍历
+     * 按层进行遍历(广度优先遍历)
      */
     public void traversals() {
         TreeNode<E> current = root;

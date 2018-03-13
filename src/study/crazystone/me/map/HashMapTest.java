@@ -1,7 +1,10 @@
 package study.crazystone.me.map;
 
+import study.crazystone.me.utils.Logs;
+
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.BiConsumer;
 
 /**
  * Created by crazystone on 18-1-16.
@@ -26,6 +29,7 @@ public class HashMapTest {
         int max = Integer.MAX_VALUE;
         Integer i;
 
+        testTreeMap();
 
 //        map.put("name","jiayan");
 //        String value = map.get("/usr/local/java/jdk1.8.0_111/jre");
@@ -55,10 +59,29 @@ public class HashMapTest {
         return (n < 0) ? 1 : (n >= MAXIMUM_CAPACITY) ? MAXIMUM_CAPACITY : n + 1;
     }
 
-    static void print(Object object) {
+    private static void print(Object object) {
 //        if(String.class.isInstance(object))
         System.out.println(object.toString());
     }
 
+    private static void testTreeMap() {
+        Map<String, String> map = new TreeMap<>();
+        for (int i = 0; i < 10; i++) {
+            map.put("key" + i, "value" + i);
+        }
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            Logs.l(entry.getKey() + "," + entry.getValue());
+        }
+//        map.forEach(new BiConsumer<String, String>() {
+//            @Override
+//            public void accept(String s, String s2) {
+//                Logs.l(s + "," + s2);
+//            }
+//        });
+        ConcurrentHashMap<String, String> concurrentHashMap;
+        map.forEach((key, value) -> {
+            Logs.l(key + "," + value);
+        });
+    }
 
 }

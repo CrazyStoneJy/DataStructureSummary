@@ -1,6 +1,7 @@
-package study.crazystone.me.algorithm;
+package study.crazystone.me.list;
 
-import java.util.Arrays;
+import study.crazystone.me.common.Node;
+
 import java.util.List;
 
 /**
@@ -10,10 +11,10 @@ import java.util.List;
 public class JudgeRing {
 
     public static void main(String... args) {
-        Node head = new Node("A");
-        Node node1 = new Node("B");
-        Node node2 = new Node("C");
-        Node node3 = new Node("D");
+        Node head = new Node("A", 1);
+        Node node1 = new Node("B", 2);
+        Node node2 = new Node("C", 3);
+        Node node3 = new Node("D", 4);
         head.next = node1;
         node1.next = node2;
         node2.next = node3;

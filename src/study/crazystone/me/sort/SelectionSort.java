@@ -6,9 +6,11 @@ package study.crazystone.me.sort;
  * 第二次遍历n-2个数，找到最小的数值与第二个元素交换；
  * 第n-1次遍历，找到最小的数值与第n-1个元素交换，排序完成。
  * 与冒泡排序不同的是选择排序不是每次发现数据小的时候就会交换位置，而是将位置的下标记录下来，比较完一轮后，再去交换位置
+ * [wiki](https://zh.wikipedia.org/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F)
+ * 时间复杂度: O(n2)
  * Created by crazystone on 17-2-13.
  */
-public class SelectionSort extends PrintArrayImpl{
+public class SelectionSort extends PrintArrayImpl {
 
     public static int[] sort(int[] array) {
 

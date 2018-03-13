@@ -1,5 +1,7 @@
 package study.crazystone.me.algorithm;
 
+import study.crazystone.me.common.Node;
+
 import java.util.Stack;
 
 /**
@@ -8,16 +10,16 @@ import java.util.Stack;
  */
 public class Question5 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        Node root = new Node("root");
-        Node node1 = new Node("node1");
-        Node node2 = new Node("node2");
-        Node node3 = new Node("node3");
+        Node root = new Node("root", 1);
+        Node node1 = new Node("node1", 2);
+        Node node2 = new Node("node2", 3);
+        Node node3 = new Node("node3", 4);
         root.next = node1;
-        node1.next=node2;
-        node2.next=node3;
-        node3.next=null;
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = null;
 
         System.out.println("逆向输出：");
         reverse(root);
@@ -25,21 +27,21 @@ public class Question5 {
         recusiveReverse(root);
     }
 
-    public static void reverse(Node root){
+    public static void reverse(Node root) {
         Stack<Node> stack = new Stack<>();
-        while(root!=null){
+        while (root != null) {
             stack.push(root);
-            root=root.next;
+            root = root.next;
         }
-        while(!stack.isEmpty()){
-              System.out.println(stack.pop().name);
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop().name);
         }
     }
 
     //递归的方式，利用方法栈逆序输出
-    public static void recusiveReverse(Node root){
-        if(root!=null){
-            if(root.next!=null){
+    public static void recusiveReverse(Node root) {
+        if (root != null) {
+            if (root.next != null) {
                 recusiveReverse(root.next);
             }
         }
