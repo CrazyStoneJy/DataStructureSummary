@@ -1,36 +1,51 @@
 package study.crazystone.me.algorithm;
 
+import study.crazystone.me.common.Node;
+
+import java.util.Stack;
+
 /**
- * 题 面试题 3 :二维数组中的查找
- * 题目描述:一个二维数组,每一行从左到右递增,每一列从上到下递增.输
- * 入一个二维数组和一个整数,判断数组中是否含有整数。
+ * 输入一个链表的头结点,从尾到头反过来打印出每个结点的值。
  * Created by crazystone on 17-2-14.
  */
 public class Question3 {
 
-    public static void main(String[] args){
-        int[][] array=new int[][]{{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+    public static void main(String[] args) {
 
-        System.out.println(hasThisNumber(array,9));
+        Node root = new Node("root", 1);
+        Node node1 = new Node("node1", 2);
+        Node node2 = new Node("node2", 3);
+        Node node3 = new Node("node3", 4);
+        root.next = node1;
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = null;
 
+        System.out.println("逆向输出：");
+        reverse(root);
+        System.out.println(">>>>>>>>>>>");
+        recusiveReverse(root);
     }
 
-    public static boolean hasThisNumber(int[][] array,int number){
-        int rowNumber = array.length-1;
-        int columnNumber = array[0].length-1;
-        if(number<array[0][0]||number>array[rowNumber][columnNumber])return false;
-        int row = 0;
-        int column = columnNumber;
-        while(row<=rowNumber&&column>=0){
-            if(array[row][column]==number)return true;
-            if(array[row][column]>number){
-                column--;
-            }else{
-                row++;
+    public static void reverse(Node root) {
+        Stack<Node> stack = new Stack<>();
+        while (root != null) {
+            stack.push(root);
+            root = root.next;
+        }
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop().name);
+        }
+    }
+
+    //递归的方式，利用方法栈逆序输出
+    public static void recusiveReverse(Node root) {
+        if (root != null) {
+            if (root.next != null) {
+                recusiveReverse(root.next);
             }
         }
-
-        return false;
+        System.out.println(root.name);
     }
 
 

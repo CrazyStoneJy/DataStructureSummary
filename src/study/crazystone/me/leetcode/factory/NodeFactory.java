@@ -24,7 +24,7 @@ public class NodeFactory {
         for (int i = 0; i < count; i++) {
             int value = random.nextInt(100);
             Node node = new Node("value" + i, value);
-            Logs.l(value);
+//            Logs.l(value);
             current.next = node;
             current = node;
         }

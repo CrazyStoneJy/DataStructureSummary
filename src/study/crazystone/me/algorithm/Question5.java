@@ -1,52 +1,58 @@
 package study.crazystone.me.algorithm;
 
-import study.crazystone.me.common.Node;
-
-import java.util.Stack;
-
 /**
- * 输入一个链表的头结点,从尾到头反过来打印出每个结点的值。
+ * 请实现一个函数,输入一个整数,输出该数二进制表示中 1 的个数。例如
+ * 把 9 表示成二进制是 1001;有 2 位是 1,因此如果输入 9,函数输出 2.
  * Created by crazystone on 17-2-14.
  */
 public class Question5 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        Node root = new Node("root", 1);
-        Node node1 = new Node("node1", 2);
-        Node node2 = new Node("node2", 3);
-        Node node3 = new Node("node3", 4);
-        root.next = node1;
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = null;
-
-        System.out.println("逆向输出：");
-        reverse(root);
-        System.out.println(">>>>>>>>>>>");
-        recusiveReverse(root);
+        System.out.println(decimal2Binary(5.2));
+        System.out.println("has number:"+hasOne(111));
     }
 
-    public static void reverse(Node root) {
-        Stack<Node> stack = new Stack<>();
-        while (root != null) {
-            stack.push(root);
-            root = root.next;
+    public static int hasOne(int number){
+        int count=0;
+        while(number!=0){
+            number/=10;
+            if(number%2!=0)count++;
         }
-        while (!stack.isEmpty()) {
-            System.out.println(stack.pop().name);
-        }
+        return count;
     }
 
-    //递归的方式，利用方法栈逆序输出
-    public static void recusiveReverse(Node root) {
-        if (root != null) {
-            if (root.next != null) {
-                recusiveReverse(root.next);
+
+
+    public static String decimal2Binary(double number){
+        int quotient;//商
+        int remainder;//余数
+        StringBuilder sb = new StringBuilder();
+
+        double decimal = number - (int)number;
+
+        int wholeNumber = (int) number;
+
+        while(wholeNumber!=0){
+            quotient = wholeNumber/2;
+            remainder = wholeNumber%2;
+            wholeNumber=quotient;
+            sb.append(remainder);
+        }
+        sb.reverse();
+        if(decimal==0)return sb.toString();
+
+        sb.append(".");
+        while(decimal !=0){
+            decimal*=2;
+            if (decimal >= 1) {
+                sb.append(1);
+                decimal -= 1;
+            } else {
+                sb.append(0);
             }
         }
-        System.out.println(root.name);
+        return sb.toString();
     }
-
 
 }

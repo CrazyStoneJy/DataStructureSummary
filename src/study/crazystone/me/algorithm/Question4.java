@@ -1,19 +1,35 @@
 package study.crazystone.me.algorithm;
 
+import org.omg.CORBA.Object;
+
+import java.util.Stack;
+
 /**
  * Created by crazystone on 17-2-14.
  */
 public class Question4 {
 
     public static void main(String[] args){
-        String str="i am a chinese";
-        System.out.println(replaceString(str));
+
     }
 
-    public static String replaceString(String target){
-       return target.replaceAll(" ","%20");
-    }
+    static class Queue{
+       static Stack<Object> prons  = new Stack<>();
+        static Stack<Object> cons = new Stack<>();
 
+        public static void addHead(Object object){
+            prons.push(object);
+            while(!prons.isEmpty()){
+                cons.push(prons.pop());
+            }
+        }
+
+        public static void remove(Object object){
+            Object node = cons.pop();
+        }
+
+
+    }
 
 
 }

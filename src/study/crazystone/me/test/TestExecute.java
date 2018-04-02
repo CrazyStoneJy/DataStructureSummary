@@ -1,5 +1,9 @@
 package study.crazystone.me.test;
 
+import study.crazystone.me.utils.Logs;
+
+import java.util.*;
+
 /**
  * Created by crazystone on 17-7-27.
  */
@@ -35,10 +39,16 @@ public class TestExecute {
         System.out.println(">>>>>");
         TestExecute.test();
 
-       String s1 = "Hello";
-       String s2 = new String("Hello");
-       System.out.println(s1==s2);
-       System.out.println(s1==s2.intern());
+        String s1 = "Hello";
+        String s2 = new String("Hello");
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s2.intern());
+
+        Logs.l(~2);
+//       String string = "";
+        Map<Integer, Integer> map = null;
+        map.containsKey(1);
+//        System.arraycopy();
     }
 
     public void print() {
