@@ -3,3 +3,4 @@
 *.iml
 code/java/.idea/*
 code/java/out/*
+.idea/*
