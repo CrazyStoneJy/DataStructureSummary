@@ -1,3 +1,5 @@
 *.vscode
 /out
 *.iml
+code/java/.idea/*
+code/java/out/*
